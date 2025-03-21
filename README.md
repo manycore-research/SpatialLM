@@ -99,7 +99,7 @@ rerun scene0000_00.rrd
 
 ### Evaluation
 
-To evaluate the performance of SpatialLM, we provide `eval.py` script that reports the benchmark results on the SpatialLM-Testset in the table below in section [Benchmark Results](#benchmark-results).
+To evaluate the performance of SpatialLM, we provide an `eval.py` script that reports the benchmark results on the SpatialLM-Testset in the table below in section [Benchmark Results](#benchmark-results).
 
 Download the testset:
 
@@ -119,7 +119,7 @@ python eval.py --metadata SpatialLM-Testset/test.csv --gt_dir SpatialLM-Testset/
 
 ## SpatialLM Testset
 
-We provide a test set of 107 preprocessed point clouds, reconstructed from RGB videos using [MASt3R-SLAM](https://github.com/rmurai0610/MASt3R-SLAM). SpatialLM-Testset is quite challenging compared to prior clean RGBD scans datasets due to the noises and occlusions in the point clouds reconstructed from monocular RGB videos.
+We provide a test set of 107 preprocessed point clouds, reconstructed from RGB videos using [MASt3R-SLAM](https://github.com/rmurai0610/MASt3R-SLAM). SpatialLM-Testset is quite challenging compared to prior clean RGBD scans datasets due to the noise and occlusions in the point clouds reconstructed from monocular RGB videos.
 
 <div align="center">
 
