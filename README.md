@@ -37,8 +37,8 @@ SpatialLM is a 3D large language model designed to process 3D point cloud data a
 
 |      **Model**      | **Download**                                                                   |
 | :-----------------: | ------------------------------------------------------------------------------ |
-| SpatialLM-Llama-1B  | [🤗 HuggingFace](https://huggingface.co/manycore-research/SpatialLM-Llama-1B)  |
-| SpatialLM-Qwen-0.5B | [🤗 HuggingFace](https://huggingface.co/manycore-research/SpatialLM-Qwen-0.5B) |
+| SpatialLM-Llama-1B  | [🤗 Hugging Face](https://huggingface.co/manycore-research/SpatialLM-Llama-1B)  |
+| SpatialLM-Qwen-0.5B | [🤗 Hugging Face](https://huggingface.co/manycore-research/SpatialLM-Qwen-0.5B) |
 
 </div>
 
