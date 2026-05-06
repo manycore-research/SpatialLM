@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RemoveAnyTarget</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <aside>
+      <header>
+        <h1>RemoveAnyTarget</h1>
+        <p id="config">Loading...</p>
+      </header>
+
+      <div class="guide">
+        <div class="label">Guide</div>
+        <p>Select a box in the Rerun viewer or tick objects in the list, then export a removed scene.</p>
+      </div>
+
+      <div class="toolbar">
+        <button id="refresh">Refresh</button>
+        <button id="clear">Clear</button>
+      </div>
+
+      <div class="selection">
+        <div class="label">Selected from Rerun</div>
+        <code id="rerun-selection">None</code>
+        <button id="add-selected">Add selected</button>
+      </div>
+
+      <div class="objects">
+        <div class="label">Objects</div>
+        <div id="object-list"></div>
+      </div>
+
+      <footer>
+        <button id="remove" class="danger">Export removed scene</button>
+        <div class="label top-gap">Last export</div>
+        <code id="export-path">No export yet.</code>
+        <pre id="status"></pre>
+      </footer>
+    </aside>
+
+    <main>
+      <div id="viewer"></div>
+    </main>
+
+    <script type="module" src="/static/app.js"></script>
+  </body>
+</html>
