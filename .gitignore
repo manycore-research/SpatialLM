@@ -166,3 +166,5 @@ cython_debug/
 *.txt
 *.rrd
 *.ply
+
+RemoveAnyTarget/test.sh
